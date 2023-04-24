@@ -3,7 +3,7 @@ li {
 }
 
 h1 {
-  background-color: #ffffff;
+  background-color: #49a050ad;
   padding: 0px;
   border-radius:25px;
 }
@@ -41,7 +41,7 @@ input[type="date"] {
   width: 90%;
   padding: 5px;
   border-radius: 15px;
-  background-color: #f29696;
+  background-color: #c9f9b570;
 }
 
 button[type="submit"],
@@ -76,7 +76,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #f29696;
+  background-color: #ffffff;
 }
 li div:last-child button {
   margin-left: 10px;
