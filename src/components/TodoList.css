@@ -1,0 +1,111 @@
+li {
+  background-color: #ffffff;
+}
+
+h1 {
+  background-color: #ffffff;
+  padding: 0px;
+  border-radius:25px;
+}
+
+
+h1 {
+  margin-top: 0;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(58, 14, 54);
+}
+
+h2 {
+  font-size: 25px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.882);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 90%;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #f29696;
+}
+
+button[type="submit"],
+button {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(58, 14, 54);
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+table {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Franklin Gothic Medium';
+  border-collapse: collapse;
+  width:80%;
+}
+
+button[type="submit"]:hover,
+button:hover {
+  background-color: #000000;
+}
+
+
+
+
+td, th {
+  border: 1px solid rgb(255, 255, 255);
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f29696;
+}
+li div:last-child button {
+  margin-left: 10px;
+  background-color:rgb(58, 14, 54);
+}
+
+li div:last-child button:last-child {
+  background-color:rgb(58, 14, 54);
+}
+
+li div:last-child button:hover {
+  background-color: #000000;
+}
+
+li div:last-child button:last-child:hover {
+  background-color: #000000;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.471);
+}
+
+
+
+
